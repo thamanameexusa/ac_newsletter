@@ -1,0 +1,9 @@
+name: ActiveCampaign Newsletter signup form
+type: module
+description: Provides an interface for subscribe and unsubscribe newsletter on ActiveCampaign Email Marketing.
+core: 8.x
+package: ActiveCampaign
+
+#configure = admin/config/services/ac-newsletter
+
+#dependencies[] = libraries

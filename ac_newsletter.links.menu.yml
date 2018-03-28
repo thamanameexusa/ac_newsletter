@@ -1,0 +1,19 @@
+ac_newsletter.admin:
+  title: ActiveCampaign
+  description: 'Connection settings for ActiveCampaign.'
+  route_name: ac_newsletter.admin
+  parent: system.admin_config_services
+
+ac_newsletter.admin.connect:
+  title: Connection
+  description: 'Connection settings for ActiveCampaign.'
+  route_name: ac_newsletter.admin
+  parent: ac_newsletter.admin
+  weight: 6
+
+ac_newsletter.admin.configure:
+  title: Configuration
+  description: 'Configuration settings for ActiveCampaign.'
+  route_name: ac_newsletter.admin.configure
+  parent: ac_newsletter.admin
+  weight: 8

@@ -1,0 +1,11 @@
+ac_newsletter.admin:
+  route_name: ac_newsletter.admin
+  title: 'Connection'
+  base_route: ac_newsletter.admin
+  weight: 6
+
+ac_newsletter.admin.configure:
+  route_name: ac_newsletter.admin.configure
+  title: 'Configuration'
+  base_route: ac_newsletter.admin
+  weight: 8

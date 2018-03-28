@@ -1,0 +1,20 @@
+ac_newsletter.admin:
+  path: '/admin/config/services/ac-newsletter/connect'
+  defaults:
+    _form: '\Drupal\ac_newsletter\Form\ActiveCampaignConnectConfigForm'
+    _title: 'ActiveCampaign'
+  requirements:
+    _permission: 'administer ac_newsletter'
+  options:
+    _admin_route: TRUE
+
+ac_newsletter.admin.configure:
+  path: '/admin/config/services/ac-newsletter/configure'
+  defaults:
+    _form: '\Drupal\ac_newsletter\Form\ActiveCampaignConfigForm'
+    _title: 'ActiveCampaign'
+  requirements:
+    #_ac_newsletter_custom_access_check: 'TRUE'
+    _permission: 'administer ac_newsletter'
+  options:
+    _admin_route: TRUE

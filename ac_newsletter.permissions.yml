@@ -1,0 +1,9 @@
+administer ac_newsletter:
+  title: 'Administer ActiveCampaign'
+  restrict access: true
+  description: 'Allows access to ActiveCampaign config settings.'
+
+access ac_newsletter:
+  title: 'Access ActiveCampaign'
+  restrict access: true
+  description: 'Allows access to ActiveCampaign sign up form.'
